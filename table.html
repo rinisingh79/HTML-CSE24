@@ -1,43 +1,114 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My First Web Page</title>
+    <title>Document</title>
   </head>
   <body>
-    <h1>hello this is h1</h1>
-    <h2>hello this is h2</h2>
-    <h3>hello this is h3</h3>
-    <h4>hello this is h4</h4>
-    <h5>hello this is h5</h5>
-    <h6>hello this is h6</h6>
-    <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima
-      voluptates molestiae impedit beatae repellat. Itaque qui porro assumenda
-      aliquam eaque debitis accusantium nobis quam veniam, voluptatibus maiores,
-      officiis, nesciunt architecto!
-    </p>
-    we use lorem to write fltu ka para in p tag
-    <!-- hey  this is comment control forward slash  -->
-    <a href="https://www.google.com/">move to google </a> <a href="www.google.com">move to google </a>
-    <!-- this is used for giving link -->
-    <a href="www.google.com"> </a>
-    <img
-      src="the-illustration-graphic-consists-of-abstract-background-with-a-blue-gradient-dynamic-shapes-composition-eps10-perfect-for-presentation-background-website-landing-page-wallpaper-vector.jpg"
-      width="100px"
-      height="100px"
-    />
-    <header>web header</header>
-    <nav>this is nav bar</nav>
-    <main>
-      <article>this is article</article>
-      <section>this is section</section>
-    </main>
-    <footer>this is footer</footer>
-    <!-- div bhi yahi karega pr usko batana hoga ki kya kya input dal raha hu <div id="header"></div> -->
+    <table border="1">
+      <caption>
+        Bio Data
+      </caption>
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Rohan</td>
+          <td>Kanaujia</td>
+          <td>20</td>
+        </tr>
+      </tbody>
+    </table>
+    <table border="1">
+      <br />
+      <br />
+      <br />
+      <caption>
+        Employee Record
+      </caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>City</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Rohan Kanaujia</td>
+          <td>20</td>
+          <td>Ghaziabad</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <br />
+    <br />
+    <table border="1" cellpadding="10px" align="center">
+      <caption>
+        Cell Span two Colums
+      </caption>
+      <thead>
+        <tr>
+          <th colspan="2">Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Rohan Kanaujia</td>
+          <td>20</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <br />
+    <br />
+    <table border="1" cellpadding="10px" cellspacing="0">
+      <caption>
+        Information
+      </caption>
+      <tr>
+        <th>Name</th>
+        <td>Rohan</td>
+      </tr>
+      <tr>
+        <th rowspan="2">Phone</th>
+        <td>7007425209</td>
+      </tr>
+      <tr>
+        <td>1223456789</td>
+      </tr>
+    </table>
 
-    <div>hello</div>
-    <div>world</div>
+    <!-- Nested Table -->
+    <table border="2" rolspan="2">
+      <tr>
+        <td>Main Table Row 1 Column 1</td>
+        <td>Main Table Column 2
+        <table border="2">
+          <tr>
+            <td>Inner Table Row 1 Column 1</td>
+            <td>Inner Table Row 1 Column 2</td>
+          </tr>
+          <tr>
+            <td>Inner table Row 2 Column 1</td>
+            <td>Inner table Row 2 Column 2</td>
+          </tr>
+          <tr>
+            <td>Inner Table Row 3 column 1</td>
+            <td>Inner Table Row 3 Column 2</td>
+          </tr>
+        </table>
+        </td>
+      </tr>
+    </table>
   </body>
 </html>
